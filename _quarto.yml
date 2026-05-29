@@ -4,7 +4,7 @@ format:
     revealjs:
         theme: [bg-light.scss]
         logo: img/BG_logo.png
-        footer: "[https://brainglobe.info/slides-IrvHelgaCooperPrize-2025](https://brainglobe.info/slides-IrvHelgaCooperPrize-2025) | 2025-11-10"
+        footer: "[brainglobe.info](https://brainglobe.info) | 2026-06-05"
         slide-number: c
         menu:
           numbers: true
