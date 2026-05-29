@@ -4,22 +4,127 @@ subtitle: Open source tools and community building<br/> for computational neuroa
 custom-font-sizes:
     attribution-font-size: 0.3em
 ---
+## Serial two-photon tomography {background-color="black"}
+![](img/whole.png){.nostretch fig-align="center" width=62%}
 
-## The BrainGlobe Initiative
-::: {.incremental}
-- Background
-- Tools
-- Expanding access
-- Community building
+## Serial two-photon tomography {background-color="black"}
+![](img/crop.png){.nostretch fig-align="center" width=62%}
+
+## Whole-brain registration
+
+### [`brainreg`](https://github.com/brainglobe/brainreg)
+
+![](img/brainreg.png){.absolute .nostretch top="20%" width="90%" left="5%"}
+
+![](img/noun-map-195855-EE9040.svg){.absolute .nostretch top="4%" width="10%" right="0%"}
+
+::: {style="background: #ffffff; width: 15%; height: 65%; margin: 0px; position: absolute; top: 23%; right: 6%"}
 :::
 
-{{< include slides/background.qmd >}}
+::: {.absolute top="32%" left="79%" style="font-size: 0.7em;"}
+Allen Mouse<br/>
+Brain Atlas
+:::
 
-{{< include slides/brainglobe-initiative.qmd >}}
+::: {.absolute top="65%" left="79%" style="font-size: 0.7em;"}
+Enhanced and<br/>
+Unified Mouse<br/>
+Brain Atlas
+:::
 
-{{< include slides/brainglobe-tools.qmd >}}
+::: {.absolute right="0%" bottom="0%" style="text-align: right; font-size: 0.4em;"}
+Christian Niedwork<br/> Charly Rousseau<br/> Adam Tyson
+:::
 
-{{< include slides/community-building.qmd >}}
+::: footer
+[Tyson, A. L. et al. (2022) “Accurate determination of marker location within whole-brain microscopy images” Sci Rep, 12, 867](https://doi.org/10.1038/s41598-021-04676-9)
+:::
+## 3D cell detection
+
+### [`cellfinder`](https://github.com/brainglobe/cellfinder)
+
+![](img/raw.png){.nostretch fig-align="center" width="70%"}
+
+
+::: {.absolute right="0%" bottom="0%" style="text-align: right; font-size: 0.4em;"}
+Christian Niedwork<br/> Charly Rousseau<br/> Adam Tyson
+:::
+
+::: footer
+[Tyson, A. L. et al. (2021) “A deep learning algorithm for 3D cell detection in whole mouse brain image datasets" PLoS Comp Biol 17(5): e1009074.](https://doi.org/10.1371/journal.pcbi.1009074)
+:::
+
+## 3D cell detection
+
+### [`cellfinder`](https://github.com/brainglobe/cellfinder)
+
+![](img/classify.png){.nostretch fig-align="center" width="70%"}
+
+
+::: {.absolute right="0%" bottom="0%" style="text-align: right; font-size: 0.4em;"}
+Christian Niedwork<br/> Charly Rousseau<br/> Adam Tyson
+:::
+
+::: footer
+[Tyson, A. L. et al. (2021) “A deep learning algorithm for 3D cell detection in whole mouse brain image datasets" PLoS Comp Biol 17(5): e1009074.](https://doi.org/10.1371/journal.pcbi.1009074)
+:::
+
+## 3D cell detection
+
+### [`brainmapper`](https://github.com/brainglobe/brainglobe-workflows)
+
+![](img/cells.png){.nostretch fig-align="center" width="70%"}
+
+![](img/noun-find-7985496-EE9040.svg){.absolute .nostretch top="4%" width="10%" right="0%"}
+
+::: {.absolute right="0%" bottom="0%" style="text-align: right; font-size: 0.4em;"}
+Christian Niedwork<br/> Charly Rousseau<br/> Adam Tyson
+:::
+
+::: footer
+[Tyson, A. L. et al. (2021) “A deep learning algorithm for 3D cell detection in whole mouse brain image datasets" PLoS Comp Biol 17(5): e1009074.](https://doi.org/10.1371/journal.pcbi.1009074)
+:::
+
+## 3D cell detection{.smaller}
+::: {style="font-size: 0.5em"}
+| Structure Name | Left Cells | Right Cells | Total Cells | Left Vol (mm³) | Right Vol (mm³) | Total Vol (mm³) | Left Cells/mm³ | Right Cells/mm³ |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Primary visual area, layer 2/3 | 964 | 1 | 965 | 1.0397 | 1.2568 | 2.2964 | 927.21 | 0.80 |
+| Primary visual area, layer 5 | 644 | 6 | 650 | 0.9626 | 1.0232 | 1.9858 | 669.04 | 5.86 |
+| Dorsal part of the lateral geniculate complex, core | 371 | 0 | 371 | 0.2506 | 0.2318 | 0.4824 | 1480.52 | 0.00 |
+| Lateral posterior nucleus of the thalamus | 240 | 0 | 240 | 0.7498 | 0.7524 | 1.5022 | 320.10 | 0.00 |
+| Primary visual area, layer 4 | 207 | 0 | 207 | 0.5938 | 0.6842 | 1.2780 | 348.59 | 0.00 |
+| Retrosplenial area, ventral part, layer 5 | 162 | 0 | 162 | 0.8891 | 0.8820 | 1.7711 | 182.22 | 0.00 |
+| Dorsal part of the lateral geniculate complex, shell | 122 | 0 | 122 | 0.1211 | 0.1166 | 0.2377 | 1007.10 | 0.00 |
+| Lateral dorsal nucleus of thalamus | 121 | 1 | 122 | 0.5330 | 0.5431 | 1.0761 | 227.01 | 1.84 |
+| Retrosplenial area, dorsal part, layer 5 | 110 | 0 | 110 | 0.6112 | 0.6247 | 1.2358 | 179.98 | 0.00 |
+:::
+![](img/noun-find-7985496-EE9040.svg){.absolute .nostretch top="4%" width="10%" right="0%"}
+
+::: footer
+[Tyson, A. L. et al. (2021) “A deep learning algorithm for 3D cell detection in whole mouse brain image datasets" PLoS Comp Biol 17(5): e1009074.](https://doi.org/10.1371/journal.pcbi.1009074)
+:::
+
+## 3D atlases
+::: {.fragment}
+![](img/elife-65751-video3.mp4){.absolute .nostretch top="30%" left="0%" width="50%" loop="true" controls="false" autoplay="true" muted="true"}
+:::
+
+::: {.fragment}
+![](img/3d_atlas.png){.absolute .nostretch top="24%" right="9%" width="37%"}
+:::
+## BrainGlobe atlases
+
+### [brainglobe-atlasapi](https://github.com/brainglobe/brainglobe-atlasapi)
+
+![](img/atlas.png){fig-align="center" .nostretch width="65%"}
+
+
+::: {.absolute right="0%" bottom="0%" style="text-align: right; font-size: 0.4em;"}
+Luigi Petrucco <br/> Federico Claudi <br/> Adam Tyson
+:::
+
+
 
 ## BrainGlobe Initiative {.smaller}
 
