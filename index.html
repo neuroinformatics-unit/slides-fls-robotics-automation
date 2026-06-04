@@ -155,7 +155,6 @@
 </section>
 <section id="d-cell-detection" class="slide level2">
 <h2>3D cell detection</h2>
-<h3 id="cellfinder"><a href="https://github.com/brainglobe/cellfinder"><code>cellfinder</code></a></h3>
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="img/raw.png" class="quarto-figure quarto-figure-center" style="width:70.0%"></p>
@@ -164,7 +163,6 @@
 </section>
 <section id="d-cell-detection-1" class="slide level2">
 <h2>3D cell detection</h2>
-<h3 id="cellfinder-1"><a href="https://github.com/brainglobe/cellfinder"><code>cellfinder</code></a></h3>
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="img/classify.png" class="quarto-figure quarto-figure-center" style="width:70.0%"></p>
@@ -185,18 +183,19 @@
 </section>
 <section id="quantification" class="slide level2 smaller">
 <h2>Quantification</h2>
-<div style="font-size: 0.6em">
+<style>
+.tight-table table { width: auto !important; margin: 0 auto; }
+.tight-table th, .tight-table td { white-space: nowrap; padding: 0.1em 0.10em; }
+</style>
+<div class="tight-table" style="font-size: 0.6em">
 <table class="caption-top">
 <colgroup>
-<col style="width: 8%">
-<col style="width: 11%">
-<col style="width: 11%">
-<col style="width: 11%">
-<col style="width: 11%">
-<col style="width: 11%">
-<col style="width: 11%">
-<col style="width: 11%">
-<col style="width: 11%">
+<col style="width: 13%">
+<col style="width: 17%">
+<col style="width: 17%">
+<col style="width: 17%">
+<col style="width: 17%">
+<col style="width: 17%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -204,9 +203,6 @@
 <th style="text-align: right;">Left Cells</th>
 <th style="text-align: right;">Right Cells</th>
 <th style="text-align: right;">Total Cells</th>
-<th style="text-align: right;">Left Vol (mm³)</th>
-<th style="text-align: right;">Right Vol (mm³)</th>
-<th style="text-align: right;">Total Vol (mm³)</th>
 <th style="text-align: right;">Left Cells/mm³</th>
 <th style="text-align: right;">Right Cells/mm³</th>
 </tr>
@@ -217,62 +213,119 @@
 <td style="text-align: right;">964</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">965</td>
-<td style="text-align: right;">1.0397</td>
-<td style="text-align: right;">1.2568</td>
-<td style="text-align: right;">2.2964</td>
-<td style="text-align: right;">927.21</td>
-<td style="text-align: right;">0.80</td>
+<td style="text-align: right;">927</td>
+<td style="text-align: right;">1</td>
 </tr>
 <tr class="even">
 <td>Primary visual area, layer 5</td>
 <td style="text-align: right;">644</td>
 <td style="text-align: right;">6</td>
 <td style="text-align: right;">650</td>
-<td style="text-align: right;">0.9626</td>
-<td style="text-align: right;">1.0232</td>
-<td style="text-align: right;">1.9858</td>
-<td style="text-align: right;">669.04</td>
-<td style="text-align: right;">5.86</td>
+<td style="text-align: right;">669</td>
+<td style="text-align: right;">6</td>
 </tr>
 <tr class="odd">
 <td>Dorsal part of the lateral geniculate complex, core</td>
 <td style="text-align: right;">371</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">371</td>
-<td style="text-align: right;">0.2506</td>
-<td style="text-align: right;">0.2318</td>
-<td style="text-align: right;">0.4824</td>
-<td style="text-align: right;">1480.52</td>
-<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">1481</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr class="even">
 <td>Lateral posterior nucleus of the thalamus</td>
 <td style="text-align: right;">240</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">240</td>
-<td style="text-align: right;">0.7498</td>
-<td style="text-align: right;">0.7524</td>
-<td style="text-align: right;">1.5022</td>
-<td style="text-align: right;">320.10</td>
-<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">320</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr class="odd">
 <td>Primary visual area, layer 4</td>
 <td style="text-align: right;">207</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">207</td>
-<td style="text-align: right;">0.5938</td>
-<td style="text-align: right;">0.6842</td>
-<td style="text-align: right;">1.2780</td>
-<td style="text-align: right;">348.59</td>
-<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">349</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td>Retrosplenial area, ventral part, layer 5</td>
+<td style="text-align: right;">162</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">162</td>
+<td style="text-align: right;">182</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="odd">
+<td>Dorsal part of the lateral geniculate complex, shell</td>
+<td style="text-align: right;">122</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">122</td>
+<td style="text-align: right;">1007</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td>Lateral dorsal nucleus of thalamus</td>
+<td style="text-align: right;">121</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">122</td>
+<td style="text-align: right;">227</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="odd">
+<td>Retrosplenial area, dorsal part, layer 5</td>
+<td style="text-align: right;">110</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">110</td>
+<td style="text-align: right;">180</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td>Retrosplenial area, dorsal part, layer 6a</td>
+<td style="text-align: right;">89</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">89</td>
+<td style="text-align: right;">195</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="odd">
+<td>Laterointermediate area, layer 5</td>
+<td style="text-align: right;">53</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">53</td>
+<td style="text-align: right;">621</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td>Anterolateral visual area, layer 5</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">420</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr class="odd">
+<td>Primary visual area, layer 6a</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">73</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr class="even">
+<td>Retrosplenial area, ventral part, layer 6a</td>
+<td style="text-align: right;">49</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">49</td>
+<td style="text-align: right;">128</td>
+<td style="text-align: right;">0</td>
 </tr>
 </tbody>
 </table>
 </div>
 </section>
-<section id="different-species-organs" class="slide level2">
-<h2>Different species &amp; organs</h2>
+<section id="brainglobe" class="slide level2">
+<h2>BrainGlobe</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="img/atlas.png" class="quarto-figure quarto-figure-center" style="width:70.0%"></p>
